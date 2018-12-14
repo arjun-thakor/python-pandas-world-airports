@@ -4,7 +4,7 @@ import plotly.graph_objs as go
 import pandas as pd
 
 # reading data from csv file
-df = pd.read_csv('./csv/airport-codes.csv')
+df = pd.read_csv('airport-codes.csv')
 
 # storing data into local variables
 lt = df.latitude
